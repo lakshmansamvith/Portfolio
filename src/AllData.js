@@ -9,6 +9,14 @@ let resumeData = {
     
     "address":"Hyderabad, India",
 
+  "pennStateLocation": "Pennslyvania State University, Harrisburg, Pennslyvania",
+
+  "pennStateStatus":"Masters in Computer Science(Discontinued due to personal constraints)", 
+
+    "pennState": "While I studied at Penn State, I served as a Teaching Assistant for Math(Statistics) and Computer Science (Python). My responsibilities included grading assignments and clarifying doubts for students.",
+    
+     "gitam": "Throughout my academic journey, I actively participated in various clubs and organizations. As the Content Head of the ACM Student Chapter, I played a key role in its activities. I was also a founding member of the GITAM Coding Club Community, contributing to its establishment and growth.", 
+    
     "education":[
         {
           "UniversityName":"Gandhi Institute of Technology and Management, Visakhapatnam",
@@ -17,37 +25,16 @@ let resumeData = {
           "YearOfPassing":"2020",
         },
       ],
-      "work":[
-        {
-          "CompanyName":"Deloitte Touche Tohmatsu Limited(Full Time)",
-          "specialization":"Worked on a large-scale Audit Application which makes Auditors work more streamlined and hasslefree. This application does things E2E and saves the Auditors requirements accordingly. As a part ofthis huge project, I dealt with multiple complex N Tier architecture APIS contributing to its refinementand adding up multiple new features to API",
-          "MonthOfLeaving":"July",
-          "YearOfLeaving":"2022",
-          "Achievements":"Some Achievements"
-        },
-      ],
+      
+       aboutWork :`During my software development experience, I primarily focused on backend web development using N Tier Architecture Web APIs with .NET Core and SQL. I developed and implemented new features for three APIs and ensured seamless integration with the frontend. One notable achievement was implementing Redis caching, which greatly improved system performance by optimizing data retrieval and reducing response times.
+
+       Although my main role was in backend development, I also took on React tasks to expand my frontend knowledge. While I'm not an expert in React, I proactively learned and completed various tasks, ensuring smooth integration between frontend and backend components.
+       
+       To maintain code quality, I wrote N Unit Tests for the backend, identifying and resolving issues early on to ensure application stability. Overall, my experience revolves around backend web development with N Tier Architecture Web APIs, where I actively participated in API development, feature implementation, frontend integration, and performance optimization using Redis caching. While my frontend skills are not as extensive as my backend expertise, I've taken the initiative to learn and work with React to bridge the gap between frontend and backend development tasks.`,
+
+
     
-      "portfolio":[
-        {
-          "name":"Coursera Data Visualization ",
-          "description":"I utilized Coursera Data(2019) on Kaggle to establish and plot some interesting facts",
-          "imgurl":"images/portfolio/piechart.jpg",
-          "url": 'https://github.com/lakshmansamvith/Coursera-Data-Visualization'
-        },
-  
-        {
-          "name":"Vehicle classifier",
-          "description":"Though this is a very small project I made in 2019, I made use of the Inception V4 ResNet Model and trained it to identify different types of vehicles. I trained it on over 8000 images.",
-          "imgurl":"images/portfolio/vehicles.jpg",
-          "url": "https://github.com/lakshmansamvith/Wheeler-Classifier",
-        },
-        {
-          "name":"LeetCode for DSA",
-          "description":"I try making use of time to improvise my grasp of DSA, especially, I'm trying to work on Advanced Data Structures such as Graphs and Trees",
-          "imgurl":"images/portfolio/leetcode.jpg",
-          "url": "https://github.com/lakshmansamvith/Blind75",
-        },
-      ]
+      
 }
 
 export default resumeData;

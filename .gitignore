@@ -24,3 +24,4 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+src/images/ngrok-v3-stable-windows-amd64.zip

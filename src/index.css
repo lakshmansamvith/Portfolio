@@ -20,18 +20,33 @@ code {
 .Main 
 { 
     /* background-image: url('./images/image.avif'); */
-    background-color: #110B11;
+    display: flex;
+    background-color: #363537;
     min-width: 100%;
     min-height: 100vh;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     display: flex;
+  align-items: center;
+  padding: 5rem 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   text-align: center;
+}
+
+
+.image-container {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 
@@ -41,17 +56,21 @@ code {
   text-align: justify;
   color: whitesmoke;
   max-width: 500px;
-  padding-top: 1%;
+  padding-bottom: 2%;
   line-height: 2  ;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
 }
 
+.Main > .container > h1 { 
+  color: #E6E8E6;
+}
+
 .Education { 
-  background-color: #F7F9F9;
+  background-color: #F7F7FF;
 }
 
 .WorkEx { 
-  background-color: #F7F9F9 ;
+  background-color: #F7F7FF ;
 }
 
 .footer { 
@@ -63,6 +82,28 @@ code {
   background-color: #363537;
   color: #F1FFE7;
 }
+
+.container {
+  /* Styles for screens with width less than or equal to 600px */
+  @media (max-width: 600px) {
+     .container > h1, p { 
+        max-width: 300px;
+        font-size: smaller;
+        justify-content: center;
+        padding: 2rem;
+      }
+  }
+
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
 
 
 

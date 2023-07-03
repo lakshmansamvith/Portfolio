@@ -1,21 +1,20 @@
-import Home from './Main';
-import Projects from './Project';
-import Header from './Header'
-import Footer from './Footer'
-import WorkExperiencePage from './WorkExperience'
-import EducationPage from './Education';
+import Home from './Components/Main';
+import Projects from './Components/Projects';
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import WorkExperiencePage from './Components/WorkExperience'
+import EducationPage from './Components/Education';
 
 function App() {
   return (
     <div className='App'>
     <Header/>
-    <br/>
-    <Home/>
-    <EducationPage/>
-    <WorkExperiencePage/>
-    <Projects/>
-    <Footer/>
+       {<Home />}
+      {<EducationPage />}
+        {<WorkExperiencePage />}
+        {<Projects />}
 
+      <Footer />
     </div>
   );
 }
