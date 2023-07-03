@@ -42,7 +42,7 @@ function ProjectPage() {
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <a
-              href="https://github.com/lakshmansamvith/Wheeler-Classifier"
+              href="https://github.com/lakshmansamvith/InvoiceGenerator"
               target='_blank'
               rel="noreferrer"
               style={{ textDecoration: "none" }} // Add this style to remove the underline
