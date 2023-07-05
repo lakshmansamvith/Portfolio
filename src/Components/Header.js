@@ -19,7 +19,7 @@ function Header() {
       <nav style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1rem' }}>
         <Link to="Home" smooth={true} duration={500}>
           <h3 style={{ margin: 0, fontFamily: 'monospace', fontWeight: 700, letterSpacing: '.3rem', color: '#fff', textDecoration: 'none' }}>
-            LAKSHMAN
+            LAKSHMAN SAMVITH DUNNA
           </h3>
         </Link>
 
@@ -95,7 +95,7 @@ function Header() {
         >
           {pages.map((page) => (
             <li key={page} style={{ padding: '1rem', color: '#FFF' }}>
-              <Link to={page} smooth={true} duration={500} onClick={handleCloseNavMenu} style={{ color: 'inherit', textDecoration: 'none' }}>
+              <Link to={page} smooth={true} duration={700} onClick={handleCloseNavMenu} style={{ color: 'inherit', textDecoration: 'none' }}>
                 {page}
               </Link>
             </li>
