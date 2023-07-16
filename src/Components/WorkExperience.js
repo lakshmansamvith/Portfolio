@@ -14,14 +14,14 @@ const WorkExperiencePage = () => {
 
   return (
       <div className = "WorkEx">
-      <Container maxWidth="lg" style={{ color: '#1D3354'}}>
+      <Container maxWidth="lg" style={{ color: '#373F51'}}>
         <Typography variant="h4" align="center" gutterBottom>
           Work Experience
         </Typography>
         <Grid container spacing={12 }>
           <Grid item xs={12} md={12}>
           <Grow in={showCards} timeout={2000}>
-            <Paper elevation={3} className="work-card" sx={{padding:'1rem', backgroundColor:'#1D3354', color:'#D9D9D9',}}>
+            <Paper elevation={3} className="work-card" sx={{padding:'1rem', backgroundColor:'#373F51', color:'#D9D9D9',}}>
               <WorkIcon fontSize="large" style={{ color: '#D9D9D9' }} />
               <Typography variant="h6" gutterBottom style={{ color: '#D9D9D9', fontWeight:'bold' }}>
               Deloitte Touche Tohmatsu Ltd.(USI)
