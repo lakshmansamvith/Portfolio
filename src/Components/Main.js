@@ -4,9 +4,7 @@ import '../index.css';
 import Lakshman from '../images/lakshman.jpg';
 
 function Main() {
-  const aboutMeText =
-    resumeData.aboutme
-
+  const aboutMeText = resumeData.aboutme;
   const aboutMeWords = aboutMeText.split(' ');
   const [visibleWords, setVisibleWords] = useState(0);
 
@@ -25,26 +23,32 @@ function Main() {
   return (
     <section id="Home">
       <div className="Main">
-        {window.innerWidth >= 800 && (
-          <div className="image-container">
-            <img src={Lakshman} alt="Profile" className="profile-image" />
-          </div>
-        )}
+      {window.innerWidth >= 800 && (
+        <div className="image-container">
+          <img src={Lakshman} alt="Profile" className="profile-image" />
+        </div>
+      )}
         <div className="container">
+        {window.matchMedia('(max-width: 600px)').matches ? (
+          <h1 style={{textAlign:'center'}}>{resumeData.name}</h1>
+        ) : (
           <h1>This is {resumeData.name}</h1>
+        )}
           <p>
             {resumeData.role}.
-            {aboutMeWords.map((word, index) => (
-              <span
-                key={index}
-                style={{
-                  opacity: index < visibleWords ? 1 : 0,
-                  transition: 'opacity 0.5s ease',
-                }}
-              >
-                {word}{' '}
-              </span>
-            ))}
+            <span className="about-me-text">
+              {aboutMeWords.map((word, index) => (
+                <span
+                  key={index}
+                  style={{
+                    opacity: index < visibleWords ? 1 : 0,
+                    transition: 'opacity 0.5s ease',
+                  }}
+                >
+                  {word}{' '}
+                </span>
+              ))}
+            </span>
           </p>
         </div>
       </div>

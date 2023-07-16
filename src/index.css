@@ -39,7 +39,8 @@ code {
 
 
 .image-container {
-  margin-right: 20px; /* Adjust the margin as needed */
+  margin-right: 2rem; 
+  margin-top: 2rem;
 }
 
 .profile-image {
@@ -84,7 +85,6 @@ code {
 }
 
 .container {
-  /* Styles for screens with width less than or equal to 600px */
   @media (max-width: 600px) {
      .container > h1, p { 
         max-width: 300px;
@@ -103,36 +103,35 @@ code {
   object-fit: cover;
 }
 
+@media  (max-width: 600px) {
+
+  .profile-image { 
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+  }
+  
+}
+
 .image-container {
   position: relative;
+  margin-top: 2%;
 }
 
-.slide-up {
-  animation: slideUp 1s ease-in-out;
-}
-
-@keyframes slideUp {
-  0% {
-    top: 50%;
-  }
-  100% {
-    top: 0;
-  }
-}
 
 
 .footer .github-icon:hover {
   color: #E1E6E1; 
 }
 
-/* Add CSS styles to change icon colors on hover */
 .footer .email-icon:hover path {
-  fill: #FF5714; /* Gmail Red: Change the color to the desired color when the Email icon is hovered */
+  fill: #FF5714; 
 }
 
 .footer .linkedin-icon:hover path {
-  fill: #0077B5; /* LinkedIn Blue: Change the color to the desired color when the LinkedIn icon is hovered */
+  fill: #0077B5; 
 }
+
 
 
 
