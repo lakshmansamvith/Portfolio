@@ -15,7 +15,7 @@ function Header() {
   };
 
   return (
-    <header style={{ background: '#1D3354', position: 'fixed', width: '100%', zIndex: 100 }}>
+    <header style={{ background: '#373F51', position: 'fixed', width: '100%', zIndex: 100 }}>
       <nav style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '1rem' }}>
         <Link to="Home" smooth={true} duration={500}>
           <h3 style={{ margin: 0, fontFamily: 'monospace', fontWeight: 700, letterSpacing: '.3rem', color: '#fff', textDecoration: 'none' }}>
@@ -88,7 +88,7 @@ function Header() {
             top: '100%',
             left: '0',
             width: '100%',
-            backgroundColor: '#1D3354',
+            backgroundColor: '#373F51',
             listStyleType: 'none',
             zIndex: 99,
           }}

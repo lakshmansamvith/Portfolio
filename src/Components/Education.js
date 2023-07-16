@@ -14,7 +14,7 @@ const EducationPage = () => {
   return (
     <section id="Resume">
       <div className="Education">
-        <Container maxWidth="lg" style={{ color: '#1D3354' }} sx={{ paddingTop: '1rem' }}>
+        <Container maxWidth="lg" style={{ color: '#373F51' }} sx={{ paddingTop: '1rem' }}>
           <Typography variant="h4" align="center" gutterBottom>
             Education
           </Typography>
@@ -26,7 +26,7 @@ const EducationPage = () => {
                   className="education-card"
                   sx={{
                     padding: '1rem',
-                    backgroundColor: '#1D3354',
+                    backgroundColor: '#373F51',
                     color: '#D9D9D9',
                     height: '100%',
                   }}
@@ -61,7 +61,7 @@ const EducationPage = () => {
                   className="education-card"
                   sx={{
                     padding: '1rem',
-                    backgroundColor: '#1D3354',
+                    backgroundColor: '#373F51',
                     color: '#D9D9D9',
                     height: '100%',
                   }}
