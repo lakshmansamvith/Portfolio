@@ -1,10 +1,18 @@
-import React from 'react';
-import { Container, Typography, Grid, Paper } from '@mui/material';
+import React, {useState, useEffect} from 'react';
+import { Container, Typography, Grid, Paper, Grow } from '@mui/material';
 import WorkIcon from '@mui/icons-material/Work';
 import resumeData from '../AllData';
 
 const WorkExperiencePage = () => {
-    return (
+    
+  const [showCards, setShowCards] = useState(false);
+
+  useEffect(() => {
+    // Set showCards to true after the page is loaded
+    setShowCards(true);
+  }, []);
+
+  return (
       <div className = "WorkEx">
       <Container maxWidth="lg" style={{ color: '#1D3354'}}>
         <Typography variant="h4" align="center" gutterBottom>
@@ -12,6 +20,7 @@ const WorkExperiencePage = () => {
         </Typography>
         <Grid container spacing={12 }>
           <Grid item xs={12} md={12}>
+          <Grow in={showCards} timeout={2000}>
             <Paper elevation={3} className="work-card" sx={{padding:'1rem', backgroundColor:'#1D3354', color:'#D9D9D9',}}>
               <WorkIcon fontSize="large" style={{ color: '#D9D9D9' }} />
               <Typography variant="h6" gutterBottom style={{ color: '#D9D9D9', fontWeight:'bold' }}>
@@ -27,6 +36,7 @@ const WorkExperiencePage = () => {
                 August 2020 - July 2022
               </Typography>
             </Paper>
+            </Grow>
           </Grid>
         </Grid>
         <br/>

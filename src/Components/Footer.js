@@ -4,6 +4,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
 import { Grid, Link, Typography } from '@mui/material';
 
+import '../index.css'
+
 function MaterialUIFooter() {
   return (
     <div className='footer'>
@@ -19,17 +21,22 @@ function MaterialUIFooter() {
         </Grid>
           <Grid item>
             <Link href="https://github.com/lakshmansamvith" target="_blank" rel="noopener">
-              <GitHubIcon style={{ color: '#FDFFFC' }} />
+              <GitHubIcon className='github-icon'
+               style={{ color: '#FDFFFC' }} />
             </Link>
           </Grid>
           <Grid item>
             <Link href="mailto:your-lakshmandunna75@gmail.com">
-              <MarkEmailReadIcon style={{ color: '#FDFFFC' }}/>
+              <MarkEmailReadIcon
+              className='email-icon'
+              style={{ color: '#FDFFFC' }}/>
             </Link>
           </Grid>
           <Grid item>
             <Link href="https://www.linkedin.com/in/lakshman-samvith-163650150/" target="_blank" rel="noopener">
-              <LinkedInIcon style={{ color: '#FDFFFC' }} />
+              <LinkedInIcon
+              className='linkedin-icon'
+               style={{ color: '#FDFFFC' }} />
             </Link>
           </Grid>
         </Grid>
