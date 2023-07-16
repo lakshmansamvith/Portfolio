@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import resumeData from '../AllData';
 import '../index.css';
-import Lakshman from '../images/lakshman.jpeg';
+import Lakshman from '../images/lakshman.jpg';
 
 function Main() {
   const aboutMeText =
