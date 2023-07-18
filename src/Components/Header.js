@@ -88,7 +88,7 @@ function Header() {
             top: '100%',
             left: '0',
             width: '100%',
-            backgroundColor: '#373F51',
+            backgroundColor: '#007EA7',
             listStyleType: 'none',
             zIndex: 99,
           }}
