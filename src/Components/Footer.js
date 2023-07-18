@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
 import { Grid, Link, Typography } from '@mui/material';
 
-import '../index.css'
+import '../css/index.css'
 
 function MaterialUIFooter() {
   return (
