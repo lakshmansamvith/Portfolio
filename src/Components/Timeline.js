@@ -16,7 +16,7 @@ export default function TimeLine() {
   let schoolIconStyles = { background: "#3E92CC", color: '#fff' };
 
   return (
-    <section id = "TimeLine">
+    <section id = "Timeline">
     <div className="timeline">
       <h1 className="title">Timeline</h1>
       <VerticalTimeline>
