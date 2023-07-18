@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import resumeData from '../AllData';
-import '../index.css';
+import '../css/index.css';
 import Lakshman from '../images/lakshman.jpg';
 
 function Main() {
