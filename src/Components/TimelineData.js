@@ -9,7 +9,7 @@ let timelineElements = [
         (I had to discontinue due to personal reasons)`,
       buttonText: "Withdrawal Proof",
       date: "2022 August - 2022 November",
-      link: 'https://drive.google.com/drive/u/0/folders/1EuUqL5gLuq06_ch997Ts7MXT637Q6Js-',
+      link: 'https://drive.google.com/drive/u/0/folders/1zhutbPm2wgSUPk2zN71wnsaypboocKZ8',
       icon: "school",
     },
     {
