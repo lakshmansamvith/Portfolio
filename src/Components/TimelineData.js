@@ -67,11 +67,21 @@ let timelineElements = [
       title: "GITAM Deemed University",
       location: "Visakhapatnam, Andhra Pradesh, India",
       description:
-        `Throughout my academic journey, I actively participated in various clubs and organizations. As the Content Head of the ACM Student Chapter
-        , I played a key role in its activities. I was also a founding member of the GITAM Coding Club Community, contributing to its 
-        establishment and growth.`,
+        `Throughout my academic journey, I actively participated in various clubs and organizations, showcasing my passion for technology and leadership.
+
+        As the Content Head of the ACM Student Chapter, I successfully oversaw the creation of two impactful magazines, guiding a team of eight writers to produce captivating articles on the latest tech advancements.
+        
+        I also organized numerous hackathons and crafted engaging tech questionnaires to challenge participants and stimulate their innovation.
+        
+        In addition, I played a crucial role in planning and securing sponsorships for two of the biggest fests on campus, each attracting over 2000 participants.
+        
+        Being a core organizing member of the UNESCO MGIEP TECH fest in Visakhapatnam further expanded my global network and experiences.
+        
+        Furthermore, I am proud to be a founding member of the GITAM Coding Club Community, contributing to its establishment and growth.
+        
+        These experiences have honed my leadership and organizational skills, and I'm excited to continue making a positive impact in the world of technology.`,
       date: "2016 - 2020",
-      link: 'https://www2.deloitte.com/ui/en/legal/about-deloitte.html',
+      link: 'https://www.gitam.edu/',
       icon: "school",
     },
   ];
