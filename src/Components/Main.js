@@ -23,7 +23,7 @@ function Main() {
   return (
     <section id="Home">
       <div className="Main">
-      {window.innerWidth >= 800 && (
+      {window.innerWidth >= 400 && (
         <div className="image-container">
           <img src={Lakshman} alt="Profile" className="profile-image" />
         </div>

@@ -21,7 +21,7 @@ code {
 { 
     /* background-image: url('./images/image.avif'); */
     display: flex;
-    background-color: #363537;
+    background: linear-gradient(to left, #43cea2 , #185a9d);
     min-width: 100%;
     min-height: 100vh;
     background-size: cover;
